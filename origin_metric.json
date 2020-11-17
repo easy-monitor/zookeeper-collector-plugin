@@ -1,0 +1,353 @@
+[
+  {
+    "agentType": "prometheus",
+    "key": "zk_ephemerals_count",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "gauge",
+    "unit": ""
+  },
+  {
+    "agentType": "prometheus",
+    "key": "zk_packets_received",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "counter",
+    "unit": ""
+  },
+  {
+    "agentType": "prometheus",
+    "key": "zk_server_leader",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "gauge",
+    "unit": ""
+  },
+  {
+    "agentType": "prometheus",
+    "key": "zk_min_latency",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "gauge",
+    "unit": "milliseconds"
+  },
+  {
+    "agentType": "prometheus",
+    "key": "zk_num_alive_connections",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "gauge",
+    "unit": ""
+  },
+  {
+    "agentType": "prometheus",
+    "key": "zk_open_file_descriptor_count",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "gauge",
+    "unit": ""
+  },
+  {
+    "agentType": "prometheus",
+    "key": "zk_max_file_descriptor_count",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "gauge",
+    "unit": ""
+  },
+  {
+    "agentType": "prometheus",
+    "key": "zk_version",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      },
+      {
+        "name": "version",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      },
+      {
+        "name": "version",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "gauge",
+    "unit": ""
+  },
+  {
+    "agentType": "prometheus",
+    "key": "zk_max_latency",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "gauge",
+    "unit": "milliseconds"
+  },
+  {
+    "agentType": "prometheus",
+    "key": "zk_packets_sent",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "counter",
+    "unit": ""
+  },
+  {
+    "agentType": "prometheus",
+    "key": "zk_outstanding_requests",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "gauge",
+    "unit": ""
+  },
+  {
+    "agentType": "prometheus",
+    "key": "zk_approximate_data_size",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "gauge",
+    "unit": "bytes"
+  },
+  {
+    "agentType": "prometheus",
+    "key": "zk_znode_count",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "gauge",
+    "unit": ""
+  },
+  {
+    "agentType": "prometheus",
+    "key": "zk_watch_count",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "gauge",
+    "unit": ""
+  },
+  {
+    "agentType": "prometheus",
+    "key": "zk_avg_latency",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "gauge",
+    "unit": "milliseconds"
+  },
+  {
+    "agentType": "calculated",
+    "key": "zk_packets_received_rate",
+    "expression": "rate(zk_packets_received[1m])",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "gauge",
+    "unit": ""
+  },
+  {
+    "agentType": "calculated",
+    "key": "zk_packets_sent_rate",
+    "expression": "rate(zk_packets_sent[1m])",
+    "paramDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false,
+        "valueType": "string"
+      }
+    ],
+    "tagDefine": [
+      {
+        "name": "zk_host",
+        "readOnly": false
+      }
+    ],
+    "data_type": "double",
+    "metric_type": "gauge",
+    "unit": ""
+  }
+]
