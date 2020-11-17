@@ -1,0 +1,12 @@
+agentType: prometheus
+type: exporter
+
+name: kafka_collector_plugin
+version: 1.0.0
+
+category: 消息队列
+params:
+    - kafka_server
+    - exporter_host
+    - exporter_port
+    - exporter_uri
